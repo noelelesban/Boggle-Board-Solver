@@ -219,6 +219,7 @@ int main()
     const char* filepath = "file.txt";
     struct Results r1;
     string board;
+    //const char* board1 = "";   //Add board letters
     LoadDictionary(filepath);
     r1=findWords(board1,width,height);        //Function that returns Structure object with all results
     FreeWords(r1);                            //Function to Display results
